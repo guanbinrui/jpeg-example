@@ -4,7 +4,6 @@
 const ONE_SQUARE_ROOT_OF_TWO = 1 / Math.sqrt(2);
 
 // type-II DCT
-// type-II DCT
 export function dct(nums: number[], size: number = 8) {
   const coefficients: number[] = [];
 

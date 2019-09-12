@@ -5,7 +5,6 @@ import Canvas from './components/Canvas';
 import JPEGCanvas from './components/JPEGCanvas';
 
 function App() {
-  const [size, setSize] = useState(8);
   const [data, setData] = useState<PickerData>(null);
   const handlePickerChange = useCallback(
     (pickerData: PickerData) => setData(pickerData),
